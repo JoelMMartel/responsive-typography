@@ -10,7 +10,8 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
-
+  font-size: .94em;
+  line-height: 1.4;
   color: #222;
 }
 
@@ -20,10 +21,12 @@ html {
 
 article {
   max-width: 43em;
+  padding: 0 1rem;
 }
 
 article h1 {
   font-weight: normal;
+  margin-bottom: 0;
 }
 
 article header {
@@ -31,10 +34,12 @@ article header {
 }
 
 article header p {
+  margin-top: 0;
   font-style: italic;
 }
 
 article > p:last-child {
+  padding-bottom: 1rem;
   border-bottom: 1px solid #999;
 }
 
@@ -42,8 +47,19 @@ blockquote {
   max-width: 24em;
   color: #555;
   font-size: 1.125rem;
+  margin: auto 0;
 }
 
 .quote {
   color: #999;
+}
+
+ol {
+  padding: 0 1rem;
+  margin: 0;
+}
+
+@media only screen and (min-width: 38em) {
+
+
 }
